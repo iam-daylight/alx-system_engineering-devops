@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Check if the script is running in Docker
 if [ -f "/.dockerenv" ]; then
     # Configure localhost to resolve to 127.0.0.2
